@@ -1,8 +1,14 @@
 # EDA-Program
-This program is designed 4 our UESTC sophomore comprehensive program. 
+这个分支是我们项目文件的地址
 
-Collaborate by Zhou Gao and Li
+项目的分支结构如下
+/wxDrawingApp
+|-- main.cpp             // 应用程序入口和主窗口
+|-- MainFrame.h          // 主窗口类的头文件
+|-- MainFrame.cpp        // 主窗口类的实现文件
+|-- DrawingPanel.h       // 绘图面板类的头文件
+|-- DrawingPanel.cpp     // 绘图面板类的实现文件
+|-- Sidebar.h            // 工具栏类的头文件
+|-- Sidebar.cpp          // 工具栏类的实现文件
+|-- Shape.h              // 图形相关定义的头文件
 
-由于这个项目的搭建环境和项目依赖内存不好管理，因此我们将这个项目的前期组件以一个个md文件的形式放置
-
-每一个文件夹代表一种组件 每一个md文件中放置的是一个组件案例以及学习笔记
